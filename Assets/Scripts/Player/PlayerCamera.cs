@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    public Transform playerPosition;
+    //public Transform playerPosition;
+    PlayerMovement playerMovement;
     public float smoothSpeed = 0.5f;
     public Vector3 offset;
 
@@ -12,8 +13,9 @@ public class PlayerCamera : MonoBehaviour
     private float minY;
     private float maxY;
     void Start()
-    {   
-        
+    {
+        playerMovement = FindAnyObjectByType<PlayerMovement>();
+    
         if(boxCollider2D != null)
         {
             minX = boxCollider2D.bounds.min.x;
@@ -25,9 +27,9 @@ public class PlayerCamera : MonoBehaviour
 
     void LateUpdate()
     {
-        if (playerPosition == null) return;
+        if (playerMovement.playerPosition == null) return;
 
-        Vector3 desiredPosition = playerPosition.position + offset;
+        Vector3 desiredPosition = playerMovement.playerPosition.position + offset;
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
 
         float clampX = Mathf.Clamp(smoothedPosition.x, minX, maxX);

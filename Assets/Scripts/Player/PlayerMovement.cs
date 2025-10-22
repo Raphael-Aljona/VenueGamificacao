@@ -1,16 +1,28 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-
-    private float playerSpeed = 5f;
+    private float playerSpeed = 10f;
     private Rigidbody2D playerRigidBody;
     private Vector2 moveInput;
     private Vector2 moveVelocity;
 
+    public Transform playerPosition;
+
     void Start()
     {
-        playerRigidBody = GetComponent<Rigidbody2D>();        
+        playerRigidBody = GetComponent<Rigidbody2D>();
+
+        string sceneName = SceneManager.GetActiveScene().name;
+
+        if (sceneName != "teste" && PlayerPrefs.HasKey("PlayerX") && PlayerPrefs.HasKey("PlayerY"))
+        {
+            float x = PlayerPrefs.GetFloat("PlayerX");
+            float y = PlayerPrefs.GetFloat("PlayerY");
+
+            playerPosition.position = new Vector2(x, y);
+        }
     }
 
     void Update()
