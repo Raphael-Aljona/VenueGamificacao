@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Competicao
   - ModalCompeticao
+  - TrelloPendente
+  - TrelloEmAndamento
+  - TrelloConcluido
   layers:
   - Default
   - TransparentFX

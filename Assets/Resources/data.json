@@ -1,0 +1,40 @@
+{
+    "listaDeTarefas": [
+      {
+        "id": 1,
+        "titulo": "Configurar Sistema de Níveis",
+        "status": "Concluido",
+        "textoDaConclusao": "Acabei de terminar o hub do Site e o sistema de níveis."
+      },
+      {
+        "id": 2,
+        "titulo": "Criar Design de Card",
+        "status": "Pendente",
+        "textoDaConclusao": "Esta tarefa ainda não foi iniciada. Aguardando o início do desenvolvimento." 
+      },
+      {
+        "id": 3,
+        "titulo": "Implementar Drag-and-Drop",
+        "status": "Em andamento",
+        "textoDaConclusao": "Estou codificando o sistema de arrastar e soltar dos cards. Cerca de 40% concluído."
+      },
+      {
+        "id": 4,
+        "titulo": "Teste de Usabilidade Inicial",
+        "status": "Pendente",
+        "textoDaConclusao": "Esta tarefa não foi priorizada ainda. Nenhuma ação tomada."
+      },
+      {
+        "id": 5,
+        "titulo": "Refatorar Código do Player",
+        "status": "Em andamento",
+        "textoDaConclusao": "Focado na melhoria da performance e clareza do código do Player. Em progresso."
+      },
+      {
+        "id": 6,
+        "titulo": "Finalizar Áudios e Sons",
+        "status": "Concluido",
+        "textoDaConclusao": "Todos os efeitos sonoros e músicas de fundo foram integrados e testados. Concluído com sucesso!"
+      }
+    ]
+  }
