@@ -35,6 +35,270 @@
         "titulo": "Finalizar Áudios e Sons",
         "status": "Concluido",
         "textoDaConclusao": "Todos os efeitos sonoros e músicas de fundo foram integrados e testados. Concluído com sucesso!"
+      },
+      {
+        "id": 7,
+        "titulo": "Otimizar Consultas ao Banco de Dados",
+        "status": "Concluido",
+        "textoDaConclusao": "Todas as consultas SQL foram revisadas e otimizadas, resultando em uma redução de 60% no tempo de carregamento das páginas."
+      },
+      {
+        "id": 8,
+        "titulo": "Integrar API de Pagamento",
+        "status": "Pendente",
+        "textoDaConclusao": "A documentação da API de pagamento foi analisada, mas a implementação ainda não começou. Depende da aprovação do design de checkout."
+      },
+      {
+        "id": 9,
+        "titulo": "Desenvolver Componente de Notificação",
+        "status": "Em andamento",
+        "textoDaConclusao": "O esqueleto do componente de notificação está pronto. Atualmente, estou trabalhando na lógica de exibição e no sistema de 'marcar como lida'. Estimativa: 75% concluído."
+      },
+      {
+        "id": 10,
+        "titulo": "Implementar autenticação de dois fatores (2FA)",
+        "status": "Em andamento",
+        "textoDaConclusao": "A interface do usuário para 2FA está completa. Trabalhando agora na integração com o serviço de envio de SMS. 50% concluído."
+      },
+      {
+        "id": 11,
+        "titulo": "Criar página de preços",
+        "status": "Pendente",
+        "textoDaConclusao": "Ainda não iniciado. Aguardando a definição dos planos e preços pela equipe de marketing."
+      },
+      {
+        "id": 12,
+        "titulo": "Configurar CI/CD pipeline",
+        "status": "Concluido",
+        "textoDaConclusao": "O pipeline de integração e entrega contínua foi configurado com sucesso no Jenkins, automatizando os testes e o deploy para o ambiente de homologação."
+      },
+      {
+        "id": 13,
+        "titulo": "Desenvolver funcionalidade de busca avançada",
+        "status": "Em andamento",
+        "textoDaConclusao": "A busca por texto simples está funcionando. Implementando agora os filtros por data e categoria. 60% concluído."
+      },
+      {
+        "id": 14,
+        "titulo": "Testar compatibilidade com navegadores legados (IE11)",
+        "status": "Pendente",
+        "textoDaConclusao": "Tarefa de baixa prioridade. Nenhuma ação foi tomada ainda."
+      },
+      {
+        "id": 15,
+        "titulo": "Atualizar dependências do projeto",
+        "status": "Concluido",
+        "textoDaConclusao": "Todas as dependências (npm e composer) foram atualizadas para as versões mais recentes e estáveis. Nenhum conflito encontrado."
+      },
+      {
+        "id": 16,
+        "titulo": "Criar documentação da API",
+        "status": "Em andamento",
+        "textoDaConclusao": "Os endpoints de autenticação e usuários já foram documentados usando Swagger. Faltam os endpoints de produtos e pedidos. 40% concluído."
+      },
+      {
+        "id": 17,
+        "titulo": "Implementar tema escuro (Dark Mode)",
+        "status": "Pendente",
+        "textoDaConclusao": "Aguardando a finalização do design system antes de iniciar a implementação."
+      },
+      {
+        "id": 18,
+        "titulo": "Corrigir bug no cálculo de frete",
+        "status": "Concluido",
+        "textoDaConclusao": "O bug que causava cálculo incorreto de frete para a região Norte foi identificado e corrigido. A correção já está em produção."
+      },
+      {
+        "id": 19,
+        "titulo": "Migrar banco de dados para a nova versão",
+        "status": "Em andamento",
+        "textoDaConclusao": "O script de migração está sendo desenvolvido. Testes iniciais em ambiente local foram bem-sucedidos. 30% concluído."
+      },
+      {
+        "id": 20,
+        "titulo": "Criar relatório de vendas mensal",
+        "status": "Pendente",
+        "textoDaConclusao": "Ainda não iniciado. Requisitos estão sendo levantados junto à equipe comercial."
+      },
+      {
+        "id": 21,
+        "titulo": "Otimizar o carregamento de imagens",
+        "status": "Concluido",
+        "textoDaConclusao": "Implementado lazy loading e compressão de imagens, resultando em uma melhoria de 40% no tempo de carregamento da página inicial."
+      },
+      {
+        "id": 22,
+        "titulo": "Desenvolver sistema de chat em tempo real",
+        "status": "Em andamento",
+        "textoDaConclusao": "A conexão via WebSockets está estabelecida. Trabalhando na interface do chat e no histórico de mensagens. 25% concluído."
+      },
+      {
+        "id": 23,
+        "titulo": "Realizar testes de carga na aplicação",
+        "status": "Pendente",
+        "textoDaConclusao": "Ferramentas de teste de carga (JMeter) já foram escolhidas, mas os scripts de teste ainda não foram criados."
+      },
+      {
+        "id": 24,
+        "titulo": "Configurar monitoramento e alertas",
+        "status": "Concluido",
+        "textoDaConclusao": "O sistema foi integrado ao Datadog. Alertas para uso de CPU, memória e erros de aplicação foram configurados e testados."
+      },
+      {
+        "id": 25,
+        "titulo": "Implementar login social (Google, Facebook)",
+        "status": "Em andamento",
+        "textoDaConclusao": "A integração com a API do Google está funcionando. Iniciando a integração com a API do Facebook. 50% concluído."
+      },
+      {
+        "id": 26,
+        "titulo": "Criar política de privacidade e termos de uso",
+        "status": "Pendente",
+        "textoDaConclusao": "Aguardando o parecer do departamento jurídico para redigir os textos."
+      },
+      {
+        "id": 27,
+        "titulo": "Refatorar o sistema de permissões de usuário",
+        "status": "Concluido",
+        "textoDaConclusao": "O sistema de permissões foi refatorado para um modelo baseado em papéis (RBAC), simplificando a gestão de acesso."
+      },
+      {
+        "id": 28,
+        "titulo": "Adicionar suporte a múltiplos idiomas",
+        "status": "Em andamento",
+        "textoDaConclusao": "A estrutura de internacionalização (i18n) foi adicionada. Traduzindo as strings da interface para espanhol e inglês. 35% concluído."
+      },
+      {
+        "id": 29,
+        "titulo": "Criar um tour guiado para novos usuários",
+        "status": "Pendente",
+        "textoDaConclusao": "Ainda em fase de concepção. O roteiro do tour está sendo discutido com a equipe de UX."
+      },
+      {
+        "id": 30,
+        "titulo": "Implementar cache de consultas frequentes",
+        "status": "Concluido",
+        "textoDaConclusao": "As consultas mais frequentes ao banco de dados foram cacheadas com Redis, melhorando a performance em endpoints críticos."
+      },
+      {
+        "id": 31,
+        "titulo": "Desenvolver a funcionalidade de exportar dados para CSV",
+        "status": "Em andamento",
+        "textoDaConclusao": "A geração do arquivo CSV está funcionando. Falta implementar a interface para o usuário selecionar os dados a serem exportados. 70% concluído."
+      },
+      {
+        "id": 32,
+        "titulo": "Realizar auditoria de segurança",
+        "status": "Pendente",
+        "textoDaConclusao": "A contratação de uma empresa externa para a auditoria de segurança está em andamento."
+      },
+      {
+        "id": 33,
+        "titulo": "Melhorar a acessibilidade do site (WCAG 2.1)",
+        "status": "Concluido",
+        "textoDaConclusao": "O site foi ajustado para atender aos critérios de acessibilidade do WCAG 2.1 nível AA. Contraste, navegação por teclado e leitores de tela foram testados e aprovados."
+      },
+      {
+        "id": 34,
+        "titulo": "Criar um programa de afiliados",
+        "status": "Em andamento",
+        "textoDaConclusao": "O modelo de comissão e o painel do afiliado estão definidos. Desenvolvendo o sistema de tracking de links. 45% concluído."
+      },
+      {
+        "id": 35,
+        "titulo": "Integrar com ferramenta de análise de dados (Google Analytics)",
+        "status": "Pendente",
+        "textoDaConclusao": "Aguardando o código de acompanhamento (tracking code) da equipe de marketing."
+      },
+      {
+        "id": 36,
+        "titulo": "Desenvolver aplicativo móvel (iOS e Android)",
+        "status": "Pendente",
+        "textoDaConclusao": "Projeto de longo prazo. A equipe ainda está na fase de pesquisa e escolha da tecnologia (nativo vs. híbrido)."
+      },
+      {
+        "id": 37,
+        "titulo": "Configurar backups automáticos do banco de dados",
+        "status": "Concluido",
+        "textoDaConclusao": "Backups diários e semanais do banco de dados foram configurados e testados com sucesso. Os arquivos são armazenados em um bucket S3 seguro."
+      },
+      {
+        "id": 38,
+        "titulo": "Criar funcionalidade de 'favoritos'",
+        "status": "Em andamento",
+        "textoDaConclusao": "O backend para salvar os itens favoritos por usuário está pronto. Trabalhando na interface para adicionar/remover favoritos. 80% concluído."
+      },
+      {
+        "id": 39,
+        "titulo": "Implementar sistema de gamificação",
+        "status": "Pendente",
+        "textoDaConclusao": "Conceito ainda em discussão. Nenhuma linha de código foi escrita."
+      },
+      {
+        "id": 40,
+        "titulo": "Otimizar o SEO on-page",
+        "status": "Concluido",
+        "textoDaConclusao": "Meta tags, títulos, e a estrutura de cabeçalhos foram otimizados em todas as páginas principais, seguindo as melhores práticas de SEO."
+      },
+      {
+        "id": 41,
+        "titulo": "Criar um blog para a plataforma",
+        "status": "Em andamento",
+        "textoDaConclusao": "O sistema de gerenciamento de conteúdo (CMS) foi instalado e configurado. O design da página de posts está sendo implementado. 65% concluído."
+      },
+      {
+        "id": 42,
+        "titulo": "Desenvolver um sistema de cupons de desconto",
+        "status": "Pendente",
+        "textoDaConclusao": "As regras de negócio para os cupons (percentual, valor fixo, frete grátis) estão sendo definidas."
+      },
+      {
+        "id": 43,
+        "titulo": "Realizar testes de integração contínua",
+        "status": "Concluido",
+        "textoDaConclusao": "Os testes de integração foram automatizados e rodam a cada novo commit no repositório principal, garantindo a estabilidade da aplicação."
+      },
+      {
+        "id": 44,
+        "titulo": "Implementar um sistema de avaliação de produtos (estrelas e comentários)",
+        "status": "Em andamento",
+        "textoDaConclusao": "O sistema de avaliação por estrelas está funcional. A seção de comentários e moderação está em desenvolvimento. 55% concluído."
+      },
+      {
+        "id": 45,
+        "titulo": "Criar uma API pública para desenvolvedores",
+        "status": "Pendente",
+        "textoDaConclusao": "Projeto em fase de planejamento. A documentação e os escopos da API ainda estão sendo discutidos."
+      },
+      {
+        "id": 46,
+        "titulo": "Configurar um firewall de aplicação web (WAF)",
+        "status": "Concluido",
+        "textoDaConclusao": "Um WAF foi configurado na frente dos nossos servidores para proteger contra ataques comuns como SQL Injection e XSS."
+      },
+      {
+        "id": 47,
+        "titulo": "Desenvolver um painel administrativo para gerenciar usuários",
+        "status": "Em andamento",
+        "textoDaConclusao": "A listagem e busca de usuários está pronta. Implementando as funcionalidades de editar, banir e remover usuários. 70% concluído."
+      },
+      {
+        "id": 48,
+        "titulo": "Integrar com um sistema de email marketing",
+        "status": "Pendente",
+        "textoDaConclusao": "A ferramenta de email marketing ainda não foi escolhida. Avaliando Mailchimp e SendGrid."
+      },
+      {
+        "id": 49,
+        "titulo": "Criar testes unitários para o módulo de pagamento",
+        "status": "Concluido",
+        "textoDaConclusao": "A cobertura de testes unitários para o módulo de pagamento atingiu 95%, garantindo a robustez e a confiabilidade das transações."
+      },
+      {
+        "id": 50,
+        "titulo": "Implementar a funcionalidade de 'esqueci minha senha'",
+        "status": "Em andamento",
+        "textoDaConclusao": "O envio de email com o link de redefinição está funcionando. Falta criar a página para o usuário digitar a nova senha. 90% concluído."
       }
     ]
   }

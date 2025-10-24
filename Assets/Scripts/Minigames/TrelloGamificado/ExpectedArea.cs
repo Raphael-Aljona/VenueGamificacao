@@ -8,10 +8,17 @@ public class ExpectedArea : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         CardController cardController = collision.GetComponent<CardController>();
-        Debug.Log(cardController.tarefa.status);
-        if (cardController.tarefa.status.Trim() == statusTask.Trim())
+        if (!cardController.concluido)
         {
-            Debug.Log("Atividade no lugar correto");
+            if (cardController.status.Trim().ToLower() == statusTask.Trim().ToLower())
+            {
+                Debug.Log("Atividade no lugar correto");
+                CardSpawner cardSpawner = FindAnyObjectByType<CardSpawner>();
+                cardController.concluido = true;
+
+                cardSpawner.SpawnNextCard();
+
+            }
         }
         else
         {

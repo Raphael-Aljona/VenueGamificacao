@@ -184,3 +184,5 @@ MonoBehaviour:
     titulo: 
     status: 
     textoDaConclusao: 
+  tituloModal: {fileID: 0}
+  descModal: {fileID: 0}
