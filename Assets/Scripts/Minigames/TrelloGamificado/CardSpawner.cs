@@ -7,7 +7,7 @@ public class CardSpawner : MonoBehaviour
 {
     private ListaDeTarefas dadosGlobais;
     public GameObject taskCard;
-    public Transform spawnPosition;
+    public List<Transform> spawnPosition;
 
     private int index = 0;
     private GameObject block;
@@ -43,7 +43,9 @@ public class CardSpawner : MonoBehaviour
             Tarefa t = dadosGlobais.listaDeTarefas[selectedIndex];
             Debug.Log($"ID: {t.id}, Título: {t.titulo}, Status: {t.status}, Conclusão: {t.textoDaConclusao}");
 
-            block = Instantiate(taskCard, spawnPosition.position, Quaternion.identity);
+            int randomSpawn = Random.Range(0, spawnPosition.Count);
+            Transform selectedSpawn = spawnPosition[randomSpawn];
+            block = Instantiate(taskCard, selectedSpawn.position, Quaternion.identity);
             CardController card = block.GetComponent<CardController>();
             card.ConfigurarCard(t);
 

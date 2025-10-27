@@ -4,6 +4,11 @@ using UnityEngine.InputSystem.XR;
 public class ExpectedArea : MonoBehaviour
 {
     public string statusTask;
+    private GameManager gameManager;
+    private void Start()
+    {
+        gameManager = FindAnyObjectByType<GameManager>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,12 +22,19 @@ public class ExpectedArea : MonoBehaviour
                 cardController.concluido = true;
 
                 cardSpawner.SpawnNextCard();
+                gameManager.AddPoints();
+            }
+            else
+            {
+                gameManager.RemovePoints();
 
             }
         }
         else
         {
             Debug.Log("Local da atividade errado");
+            gameManager.RemovePoints();
+
         }
     }
 }
