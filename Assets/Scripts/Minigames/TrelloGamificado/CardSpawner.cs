@@ -15,6 +15,8 @@ public class CardSpawner : MonoBehaviour
 
     public TextMeshProUGUI tituloModal;
     public TextMeshProUGUI descModal;
+
+    private GameManager gameManager;
     void Start()
     {
         TextAsset TextAsset = Resources.Load<TextAsset>("data");
@@ -53,9 +55,10 @@ public class CardSpawner : MonoBehaviour
             card.descModal = descModal;
 
             index++;
-            Debug.Log("novo block instanciado");
         }else
         {
+            gameManager = FindAnyObjectByType<GameManager>();
+            gameManager.Ended();
             Debug.Log("todos os blocos foram instanciados");
         }
     }

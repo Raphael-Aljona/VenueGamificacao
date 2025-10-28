@@ -22,7 +22,6 @@ public class CardController : MonoBehaviour
         descricao = tarefa.textoDaConclusao;
         id = tarefa.id;
 
-        Debug.Log(tarefa);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -31,7 +30,6 @@ public class CardController : MonoBehaviour
         {
             tituloModal.text = titulo;
             descModal.text = descricao;
-            Debug.Log($"tituloModal:{tituloModal.text}");
         }
 
     }

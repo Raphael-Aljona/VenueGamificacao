@@ -11,12 +11,16 @@ public class GameManager : MonoBehaviour
 
     public int score = 0;
     public int addScore = 10;
-    public int removeScore = -5;
+    public int removeScore = 5;
 
+    public GameObject infoGame;
+    public GameObject gameOver;
     void Start()
     {
         isPlaying = true;
         UpdateUI();
+        infoGame.SetActive(true);
+        gameOver.SetActive(false);
     }
 
     // Update is called once per frame
@@ -56,5 +60,7 @@ public class GameManager : MonoBehaviour
     public void Ended()
     {
         isPlaying = false;
+        infoGame.SetActive(false);
+        gameOver.SetActive(true);
     }
 }

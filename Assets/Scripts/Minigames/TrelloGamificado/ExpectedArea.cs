@@ -13,28 +13,36 @@ public class ExpectedArea : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         CardController cardController = collision.GetComponent<CardController>();
+        Debug.Log($"cardController{cardController.status}");
+
+
         if (!cardController.concluido)
         {
             if (cardController.status.Trim().ToLower() == statusTask.Trim().ToLower())
             {
-                Debug.Log("Atividade no lugar correto");
                 CardSpawner cardSpawner = FindAnyObjectByType<CardSpawner>();
                 cardController.concluido = true;
+                Debug.Log($"cardController{cardController.status}");
 
                 cardSpawner.SpawnNextCard();
                 gameManager.AddPoints();
             }
-            else
+            else 
             {
                 gameManager.RemovePoints();
-
             }
         }
-        else
-        {
-            Debug.Log("Local da atividade errado");
-            gameManager.RemovePoints();
+    }
 
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        CardController cardController = collision.GetComponent<CardController>();
+
+        if (cardController.status.Trim().ToLower() == statusTask.Trim().ToLower())
+        {
+            Debug.Log($"Card correto removido da área {statusTask}");
+            //cardController.concluido = false;
+            gameManager.RemovePoints();
         }
     }
 }
