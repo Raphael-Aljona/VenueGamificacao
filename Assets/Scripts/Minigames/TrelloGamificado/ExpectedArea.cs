@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem.XR;
 
@@ -5,6 +6,7 @@ public class ExpectedArea : MonoBehaviour
 {
     public string statusTask;
     private GameManager gameManager;
+
     private void Start()
     {
         gameManager = FindAnyObjectByType<GameManager>();
@@ -15,6 +17,7 @@ public class ExpectedArea : MonoBehaviour
         CardController cardController = collision.GetComponent<CardController>();
         Debug.Log($"cardController{cardController.status}");
 
+        cardController.inArea = true;
 
         if (!cardController.concluido)
         {
@@ -23,12 +26,14 @@ public class ExpectedArea : MonoBehaviour
                 CardSpawner cardSpawner = FindAnyObjectByType<CardSpawner>();
                 cardController.concluido = true;
                 Debug.Log($"cardController{cardController.status}");
+                cardController.inCorrectArea = true;
 
                 cardSpawner.SpawnNextCard();
                 gameManager.AddPoints();
             }
             else 
             {
+                cardController.inCorrectArea = false;
                 gameManager.RemovePoints();
             }
         }
@@ -37,6 +42,9 @@ public class ExpectedArea : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         CardController cardController = collision.GetComponent<CardController>();
+
+        cardController.inArea = false;
+        cardController.inCorrectArea = false;
 
         if (cardController.status.Trim().ToLower() == statusTask.Trim().ToLower())
         {

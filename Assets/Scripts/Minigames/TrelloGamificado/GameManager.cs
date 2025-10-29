@@ -6,12 +6,15 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI scoreText;
 
+    public TextMeshProUGUI finalTimerText;
+    public TextMeshProUGUI finalScoreText;
+
     private float timer = 0f;
     private bool isPlaying = false;
 
     public int score = 0;
-    public int addScore = 10;
-    public int removeScore = 5;
+    public int addScore = 100;
+    public int removeScore = 50;
 
     public GameObject infoGame;
     public GameObject gameOver;
@@ -30,6 +33,11 @@ public class GameManager : MonoBehaviour
         {
             timer += Time.deltaTime;
             UpdateUI();
+
+            if (AllCardsPositioned())
+            {
+                Ended();
+            }
         }
     }
 
@@ -57,10 +65,30 @@ public class GameManager : MonoBehaviour
         UpdateUI();
     }
 
+    public bool AllCardsPositioned()
+    {
+        CardController[] cards = FindObjectsOfType<CardController>();
+
+        foreach (CardController card in cards) {
+            if (!card.inArea || !card.inCorrectArea)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public void Ended()
     {
         isPlaying = false;
         infoGame.SetActive(false);
+        
+        int min = Mathf.FloorToInt(timer / 60);
+        int sec = Mathf.FloorToInt(timer % 60);
+
+        finalTimerText.text = $"Tempo final: {min:00}:{sec:00}";
+        finalScoreText.text =$"Pontuação final: {Mathf.RoundToInt(score * (100f / (timer + 1f))).ToString()}";
+
         gameOver.SetActive(true);
     }
 }

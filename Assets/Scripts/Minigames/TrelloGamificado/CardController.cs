@@ -7,6 +7,8 @@ public class CardController : MonoBehaviour
     public string status;
     public string descricao;
     public int id;
+    public bool inArea = false;
+    public bool inCorrectArea = false;
 
     public Tarefa tarefa;
 
@@ -21,10 +23,12 @@ public class CardController : MonoBehaviour
         status = tarefa.status;
         descricao = tarefa.textoDaConclusao;
         id = tarefa.id;
+        inArea = false;
+        inCorrectArea = false;
 
-    }
+}
 
-    private void OnCollisionEnter2D(Collision2D collision)
+private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {

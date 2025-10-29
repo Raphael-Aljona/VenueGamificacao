@@ -33,11 +33,11 @@ public class CardSpawner : MonoBehaviour
         }
     }
 
-    public void SpawnNextCard() { 
-        if(index < 10)
+    public void SpawnNextCard() {
+        if (index < 10)
         {
 
-            int randomIndex = Random.Range(0, indexAvailable.Count);    
+            int randomIndex = Random.Range(0, indexAvailable.Count);
             int selectedIndex = indexAvailable[randomIndex];
 
             indexAvailable.Remove(selectedIndex);
@@ -55,11 +55,6 @@ public class CardSpawner : MonoBehaviour
             card.descModal = descModal;
 
             index++;
-        }else
-        {
-            gameManager = FindAnyObjectByType<GameManager>();
-            gameManager.Ended();
-            Debug.Log("todos os blocos foram instanciados");
         }
     }
 }

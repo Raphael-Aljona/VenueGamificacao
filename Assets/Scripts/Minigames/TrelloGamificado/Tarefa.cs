@@ -9,5 +9,7 @@ using UnityEngine;
     public string titulo;
     public string status;
     public string textoDaConclusao;
+    //private bool inArea = false;
+
 }
 
