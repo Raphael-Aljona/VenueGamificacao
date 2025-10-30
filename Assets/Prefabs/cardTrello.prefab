@@ -179,6 +179,8 @@ MonoBehaviour:
   status: 
   descricao: 
   id: 0
+  inArea: 0
+  inCorrectArea: 0
   tarefa:
     id: 0
     titulo: 
@@ -186,3 +188,8 @@ MonoBehaviour:
     textoDaConclusao: 
   tituloModal: {fileID: 0}
   descModal: {fileID: 0}
+  concluido: 0
+  spriteCorreto: {fileID: 7482667652216324306, guid: fd7bf7f25b8223d44a61aeabf07d8a42, type: 3}
+  spriteErrado: {fileID: 7482667652216324306, guid: 350ebf167216c8e459b8e0c0d9667e2e, type: 3}
+  spriteNeutro: {fileID: -2413806693520163455, guid: afa97e8abfbb0c047a62c5bb45f53651, type: 3}
+  spriteRenderer: {fileID: 0}

@@ -28,12 +28,14 @@ public class ExpectedArea : MonoBehaviour
                 Debug.Log($"cardController{cardController.status}");
                 cardController.inCorrectArea = true;
 
+                cardController.SetSpriteCorreto();
                 cardSpawner.SpawnNextCard();
                 gameManager.AddPoints();
             }
             else 
             {
                 cardController.inCorrectArea = false;
+                cardController.SetSpriteErrado();
                 gameManager.RemovePoints();
             }
         }
@@ -45,6 +47,7 @@ public class ExpectedArea : MonoBehaviour
 
         cardController.inArea = false;
         cardController.inCorrectArea = false;
+        cardController.SetSpriteNeutro();
 
         if (cardController.status.Trim().ToLower() == statusTask.Trim().ToLower())
         {

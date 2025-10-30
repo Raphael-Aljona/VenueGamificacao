@@ -16,7 +16,18 @@ public class CardController : MonoBehaviour
     public TextMeshProUGUI descModal;
     public bool concluido;
 
-    public void ConfigurarCard (Tarefa tarefa)
+    public Sprite spriteCorreto;
+    public Sprite spriteErrado;
+    public Sprite spriteNeutro;
+
+    private SpriteRenderer spriteRenderer;
+
+    private void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
+    public void ConfigurarCard(Tarefa tarefa)
     {
 
         titulo = tarefa.titulo;
@@ -25,10 +36,9 @@ public class CardController : MonoBehaviour
         id = tarefa.id;
         inArea = false;
         inCorrectArea = false;
+    }
 
-}
-
-private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -36,5 +46,18 @@ private void OnCollisionEnter2D(Collision2D collision)
             descModal.text = descricao;
         }
 
+    }
+
+    public void SetSpriteCorreto()
+    {
+        spriteRenderer.sprite = spriteCorreto;
+    }
+    public void SetSpriteErrado()
+    {
+        spriteRenderer.sprite = spriteErrado;
+    }
+    public void SetSpriteNeutro()
+    {
+        spriteRenderer.sprite = spriteNeutro;
     }
 }
