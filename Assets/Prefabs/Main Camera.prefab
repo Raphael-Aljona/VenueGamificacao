@@ -150,7 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a01c626a13b14b4babdcdb7f4362be1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPosition: {fileID: 0}
   smoothSpeed: 1
   offset: {x: 0, y: 0, z: 0}
-  boxCollider2D: {fileID: 0}
+  boxCollider2D: {fileID: 5096042723523882785, guid: aad93dd40344222478d86c77f98a4cac, type: 3}

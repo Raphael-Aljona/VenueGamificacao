@@ -1,0 +1,1560 @@
+fileFormatVersion: 2
+guid: 400750d214364bf438cca37f029c4702
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4623924846460046202
+    second: DetailsFu_PC_Fu_Chair_0
+  - first:
+      213: -9184837851337195403
+    second: DetailsFu_PC_Fu_Chair_1
+  - first:
+      213: 2635590695059619529
+    second: DetailsFu_PC_Fu_Chair_2
+  - first:
+      213: -4334818178794942760
+    second: DetailsFu_PC_Fu_Chair_3
+  - first:
+      213: -7822477699112057222
+    second: DetailsFu_PC_Fu_Chair_4
+  - first:
+      213: 4493084916451934346
+    second: DetailsFu_PC_Fu_Chair_5
+  - first:
+      213: 8803187555495640739
+    second: DetailsFu_PC_Fu_Chair_6
+  - first:
+      213: -8809491294689142379
+    second: DetailsFu_PC_Fu_Chair_7
+  - first:
+      213: -7081589387603834331
+    second: DetailsFu_PC_Fu_Chair_8
+  - first:
+      213: -8105507767657155405
+    second: DetailsFu_PC_Fu_Chair_9
+  - first:
+      213: 7724642302409501519
+    second: DetailsFu_PC_Fu_Chair_10
+  - first:
+      213: -7729477950765349572
+    second: DetailsFu_PC_Fu_Chair_11
+  - first:
+      213: 3406164285421030762
+    second: DetailsFu_PC_Fu_Chair_12
+  - first:
+      213: 4804911442678566221
+    second: DetailsFu_PC_Fu_Chair_13
+  - first:
+      213: -8751932866816012296
+    second: DetailsFu_PC_Fu_Chair_14
+  - first:
+      213: -4317732489137391948
+    second: DetailsFu_PC_Fu_Chair_15
+  - first:
+      213: -6073526431848244202
+    second: DetailsFu_PC_Fu_Chair_16
+  - first:
+      213: 6150981105613623796
+    second: DetailsFu_PC_Fu_Chair_17
+  - first:
+      213: -8826709770688464725
+    second: DetailsFu_PC_Fu_Chair_18
+  - first:
+      213: 3917907508804802122
+    second: DetailsFu_PC_Fu_Chair_19
+  - first:
+      213: -5630657393246201354
+    second: DetailsFu_PC_Fu_Chair_20
+  - first:
+      213: -2415349109439571486
+    second: DetailsFu_PC_Fu_Chair_21
+  - first:
+      213: -6268729126473022459
+    second: DetailsFu_PC_Fu_Chair_22
+  - first:
+      213: 9059606056183789903
+    second: DetailsFu_PC_Fu_Chair_23
+  - first:
+      213: -2248947218004374441
+    second: DetailsFu_PC_Fu_Chair_24
+  - first:
+      213: 6613620122643062295
+    second: DetailsFu_PC_Fu_Chair_25
+  - first:
+      213: 5297688252406946520
+    second: DetailsFu_PC_Fu_Chair_26
+  - first:
+      213: -4954270872341249084
+    second: DetailsFu_PC_Fu_Chair_27
+  - first:
+      213: -8486438711005029784
+    second: DetailsFu_PC_Fu_Chair_28
+  - first:
+      213: -2865251723832056287
+    second: DetailsFu_PC_Fu_Chair_29
+  - first:
+      213: -7377160647220988999
+    second: DetailsFu_PC_Fu_Chair_30
+  - first:
+      213: -2392026413306376442
+    second: DetailsFu_PC_Fu_Chair_31
+  - first:
+      213: -6263031495242491229
+    second: DetailsFu_PC_Fu_Chair_32
+  - first:
+      213: -8407459260628517064
+    second: DetailsFu_PC_Fu_Chair_33
+  - first:
+      213: 2112832786472072249
+    second: DetailsFu_PC_Fu_Chair_34
+  - first:
+      213: -5323636513142173785
+    second: DetailsFu_PC_Fu_Chair_35
+  - first:
+      213: 8781301732396119265
+    second: DetailsFu_PC_Fu_Chair_36
+  - first:
+      213: -994715880488870212
+    second: DetailsFu_PC_Fu_Chair_37
+  - first:
+      213: 4899969598544627689
+    second: DetailsFu_PC_Fu_Chair_38
+  - first:
+      213: -6483665680462149743
+    second: DetailsFu_PC_Fu_Chair_39
+  - first:
+      213: 9180698933990494741
+    second: DetailsFu_PC_Fu_Chair_40
+  - first:
+      213: 1558634893182081266
+    second: DetailsFu_PC_Fu_Chair_41
+  - first:
+      213: -7656709112558027119
+    second: DetailsFu_PC_Fu_Chair_42
+  - first:
+      213: 1036786773407854324
+    second: DetailsFu_PC_Fu_Chair_43
+  - first:
+      213: -7078457549369489228
+    second: DetailsFu_PC_Fu_Chair_44
+  - first:
+      213: -5600396962450188546
+    second: DetailsFu_PC_Fu_Chair_45
+  - first:
+      213: -5986362524803233401
+    second: DetailsFu_PC_Fu_Chair_46
+  - first:
+      213: 1668518451156509634
+    second: DetailsFu_PC_Fu_Chair_47
+  - first:
+      213: 1029575828589387099
+    second: DetailsFu_PC_Fu_Chair_48
+  - first:
+      213: -4283342824148932868
+    second: DetailsFu_PC_Fu_Chair_49
+  - first:
+      213: 6160311607407162224
+    second: DetailsFu_PC_Fu_Chair_50
+  - first:
+      213: 1012912341822632981
+    second: DetailsFu_PC_Fu_Chair_51
+  - first:
+      213: -2140364258865582870
+    second: DetailsFu_PC_Fu_Chair_52
+  - first:
+      213: 5706260903452505963
+    second: DetailsFu_PC_Fu_Chair_53
+  - first:
+      213: -7492371464720464894
+    second: DetailsFu_PC_Fu_Chair_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_0
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1485
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68475aac9d484dfb0800000000000000
+      internalID: -4623924846460046202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_1
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 1509
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5700c7733a6e88080800000000000000
+      internalID: -9184837851337195403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_2
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 1485
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce7a50f5cf739420800000000000000
+      internalID: 2635590695059619529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1279
+        width: 38
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de850f45d1a7d3c0800000000000000
+      internalID: -4334818178794942760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_4
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1363
+        width: 142
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76c2095af9f07390800000000000000
+      internalID: -7822477699112057222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1343
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8088c61de4aa5e30800000000000000
+      internalID: 4493084916451934346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_6
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1227
+        width: 218
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aef470c0743b2a70800000000000000
+      internalID: 8803187555495640739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_7
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 1195
+        width: 90
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599582897566eb580800000000000000
+      internalID: -8809491294689142379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_8
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 1195
+        width: 90
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a82bac8f329bd90800000000000000
+      internalID: -7081589387603834331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_9
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1163
+        width: 218
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b430a051a3738f80800000000000000
+      internalID: -8105507767657155405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_10
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1247
+        width: 46
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4be2144f31733b60800000000000000
+      internalID: 7724642302409501519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_11
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1247
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35ca6d91c06bb490800000000000000
+      internalID: -7729477950765349572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_12
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1133
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d8427fe50254f20800000000000000
+      internalID: 3406164285421030762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_13
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1001
+        width: 34
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4dc016ef797ea240800000000000000
+      internalID: 4804911442678566221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_14
+      rect:
+        serializedVersion: 2
+        x: 2145
+        y: 1101
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff8d576d63ea8680800000000000000
+      internalID: -8751932866816012296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_15
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1011
+        width: 174
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b67dcd6d255414c0800000000000000
+      internalID: -4317732489137391948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_16
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1087
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c5dbf93ef76bba0800000000000000
+      internalID: -6073526431848244202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_17
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1087
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f15d3ce9bcac5550800000000000000
+      internalID: 6150981105613623796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_18
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 1087
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8f4aeba3a318580800000000000000
+      internalID: -8826709770688464725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_19
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 1087
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46552d0f143f5630800000000000000
+      internalID: 3917907508804802122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_20
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 671
+        width: 46
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f912afeee2ebd1b0800000000000000
+      internalID: -5630657393246201354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_21
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 851
+        width: 206
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e95c4338c4fa7ed0800000000000000
+      internalID: -2415349109439571486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_22
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 721
+        width: 68
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5044e6792100109a0800000000000000
+      internalID: -6268729126473022459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_23
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 667
+        width: 150
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49ffcf45bf2abd70800000000000000
+      internalID: 9059606056183789903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_24
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 691
+        width: 154
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c0f30bb622ac0e0800000000000000
+      internalID: -2248947218004374441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_25
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 717
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ed389067c48cb50800000000000000
+      internalID: 6613620122643062295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_26
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 783
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dad97fa56b258940800000000000000
+      internalID: 5297688252406946520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_27
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 639
+        width: 226
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c30905f3e4ee3bb0800000000000000
+      internalID: -4954270872341249084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_28
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 713
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86adb6694fc1a3a80800000000000000
+      internalID: -8486438711005029784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_29
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 711
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1262ae8ecb49c38d0800000000000000
+      internalID: -2865251723832056287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_30
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 639
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3f66b2a7f0f9990800000000000000
+      internalID: -7377160647220988999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_31
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 639
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f858d86a0ddced0800000000000000
+      internalID: -2392026413306376442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_32
+      rect:
+        serializedVersion: 2
+        x: 2419
+        y: 459
+        width: 218
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aadcfcb90e3519a0800000000000000
+      internalID: -6263031495242491229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 511
+        width: 322
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f3baad854b25b80800000000000000
+      internalID: -8407459260628517064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_34
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 479
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934777b993a425d10800000000000000
+      internalID: 2112832786472072249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_35
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 485
+        width: 30
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af8cd01cc4ae16b0800000000000000
+      internalID: -5323636513142173785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_36
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 447
+        width: 46
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e43ef876637dd970800000000000000
+      internalID: 8781301732396119265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_37
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 241
+        width: 34
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe550b4d2f0232f0800000000000000
+      internalID: -994715880488870212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_38
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 321
+        width: 270
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e747738360300440800000000000000
+      internalID: 4899969598544627689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_39
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 299
+        width: 90
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19789a16a646506a0800000000000000
+      internalID: -6483665680462149743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_40
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 299
+        width: 90
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5129f4ef905686f70800000000000000
+      internalID: 9180698933990494741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_41
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 267
+        width: 90
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f895a66d2261a510800000000000000
+      internalID: 1558634893182081266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_42
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 267
+        width: 90
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e7b7d01a7edb590800000000000000
+      internalID: -7656709112558027119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_43
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 275
+        width: 206
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe6cc8c318636e00800000000000000
+      internalID: 1036786773407854324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_44
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 353
+        width: 546
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b84624bc5444cd90800000000000000
+      internalID: -7078457549369489228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_45
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 289
+        width: 398
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6daf382a46742b0800000000000000
+      internalID: -5600396962450188546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_46
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 335
+        width: 66
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7898464300b2ceca0800000000000000
+      internalID: -5986362524803233401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_47
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 287
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c36e5ee0b4c72710800000000000000
+      internalID: 1668518451156509634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_48
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 287
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d166cd2c9c94e00800000000000000
+      internalID: 1029575828589387099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_49
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 287
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6626345628e84c0800000000000000
+      internalID: -4283342824148932868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_50
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 287
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0733839a4c2dd7550800000000000000
+      internalID: 6160311607407162224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_51
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 261
+        width: 30
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51472f288669e0e00800000000000000
+      internalID: 1012912341822632981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_52
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 239
+        width: 38
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecef54fb06eb42e0800000000000000
+      internalID: -2140364258865582870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_53
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b677cf10f06b03f40800000000000000
+      internalID: 5706260903452505963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DetailsFu_PC_Fu_Chair_54
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 223
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204401069dfb50890800000000000000
+      internalID: -7492371464720464894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DetailsFu_PC_Fu_Chair_0: -4623924846460046202
+      DetailsFu_PC_Fu_Chair_1: -9184837851337195403
+      DetailsFu_PC_Fu_Chair_10: 7724642302409501519
+      DetailsFu_PC_Fu_Chair_11: -7729477950765349572
+      DetailsFu_PC_Fu_Chair_12: 3406164285421030762
+      DetailsFu_PC_Fu_Chair_13: 4804911442678566221
+      DetailsFu_PC_Fu_Chair_14: -8751932866816012296
+      DetailsFu_PC_Fu_Chair_15: -4317732489137391948
+      DetailsFu_PC_Fu_Chair_16: -6073526431848244202
+      DetailsFu_PC_Fu_Chair_17: 6150981105613623796
+      DetailsFu_PC_Fu_Chair_18: -8826709770688464725
+      DetailsFu_PC_Fu_Chair_19: 3917907508804802122
+      DetailsFu_PC_Fu_Chair_2: 2635590695059619529
+      DetailsFu_PC_Fu_Chair_20: -5630657393246201354
+      DetailsFu_PC_Fu_Chair_21: -2415349109439571486
+      DetailsFu_PC_Fu_Chair_22: -6268729126473022459
+      DetailsFu_PC_Fu_Chair_23: 9059606056183789903
+      DetailsFu_PC_Fu_Chair_24: -2248947218004374441
+      DetailsFu_PC_Fu_Chair_25: 6613620122643062295
+      DetailsFu_PC_Fu_Chair_26: 5297688252406946520
+      DetailsFu_PC_Fu_Chair_27: -4954270872341249084
+      DetailsFu_PC_Fu_Chair_28: -8486438711005029784
+      DetailsFu_PC_Fu_Chair_29: -2865251723832056287
+      DetailsFu_PC_Fu_Chair_3: -4334818178794942760
+      DetailsFu_PC_Fu_Chair_30: -7377160647220988999
+      DetailsFu_PC_Fu_Chair_31: -2392026413306376442
+      DetailsFu_PC_Fu_Chair_32: -6263031495242491229
+      DetailsFu_PC_Fu_Chair_33: -8407459260628517064
+      DetailsFu_PC_Fu_Chair_34: 2112832786472072249
+      DetailsFu_PC_Fu_Chair_35: -5323636513142173785
+      DetailsFu_PC_Fu_Chair_36: 8781301732396119265
+      DetailsFu_PC_Fu_Chair_37: -994715880488870212
+      DetailsFu_PC_Fu_Chair_38: 4899969598544627689
+      DetailsFu_PC_Fu_Chair_39: -6483665680462149743
+      DetailsFu_PC_Fu_Chair_4: -7822477699112057222
+      DetailsFu_PC_Fu_Chair_40: 9180698933990494741
+      DetailsFu_PC_Fu_Chair_41: 1558634893182081266
+      DetailsFu_PC_Fu_Chair_42: -7656709112558027119
+      DetailsFu_PC_Fu_Chair_43: 1036786773407854324
+      DetailsFu_PC_Fu_Chair_44: -7078457549369489228
+      DetailsFu_PC_Fu_Chair_45: -5600396962450188546
+      DetailsFu_PC_Fu_Chair_46: -5986362524803233401
+      DetailsFu_PC_Fu_Chair_47: 1668518451156509634
+      DetailsFu_PC_Fu_Chair_48: 1029575828589387099
+      DetailsFu_PC_Fu_Chair_49: -4283342824148932868
+      DetailsFu_PC_Fu_Chair_5: 4493084916451934346
+      DetailsFu_PC_Fu_Chair_50: 6160311607407162224
+      DetailsFu_PC_Fu_Chair_51: 1012912341822632981
+      DetailsFu_PC_Fu_Chair_52: -2140364258865582870
+      DetailsFu_PC_Fu_Chair_53: 5706260903452505963
+      DetailsFu_PC_Fu_Chair_54: -7492371464720464894
+      DetailsFu_PC_Fu_Chair_6: 8803187555495640739
+      DetailsFu_PC_Fu_Chair_7: -8809491294689142379
+      DetailsFu_PC_Fu_Chair_8: -7081589387603834331
+      DetailsFu_PC_Fu_Chair_9: -8105507767657155405
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
