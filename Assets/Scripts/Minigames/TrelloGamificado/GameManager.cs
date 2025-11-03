@@ -4,7 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
-    public TextMeshProUGUI scoreText;
+    //public TextMeshProUGUI scoreText;
 
     public TextMeshProUGUI finalTimerText;
     public TextMeshProUGUI finalScoreText;
@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject infoGame;
     public GameObject gameOver;
+    public GameObject topPanel;
     void Start()
     {
         isPlaying = true;
@@ -49,7 +50,7 @@ public class GameManager : MonoBehaviour
 
         timerText.text = $"{min:00}:{sec:00}";
 
-        scoreText.text = score.ToString();
+        //scoreText.text = score.ToString();
 
     }
 
@@ -82,11 +83,13 @@ public class GameManager : MonoBehaviour
     {
         isPlaying = false;
         infoGame.SetActive(false);
+        topPanel.SetActive(false);
         
         int min = Mathf.FloorToInt(timer / 60);
         int sec = Mathf.FloorToInt(timer % 60);
 
         finalTimerText.text = $"Tempo final: {min:00}:{sec:00}";
+        // Salvar valor abaixo em uma variavel
         finalScoreText.text =$"Pontuação final: {Mathf.RoundToInt(score * (100f / (timer + 1f))).ToString()}";
 
         gameOver.SetActive(true);

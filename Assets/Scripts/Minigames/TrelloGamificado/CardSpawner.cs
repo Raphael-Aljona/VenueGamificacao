@@ -17,6 +17,7 @@ public class CardSpawner : MonoBehaviour
     public TextMeshProUGUI descModal;
 
     private GameManager gameManager;
+    public int numCards = 10;
     void Start()
     {
         TextAsset TextAsset = Resources.Load<TextAsset>("data");
@@ -34,7 +35,7 @@ public class CardSpawner : MonoBehaviour
     }
 
     public void SpawnNextCard() {
-        if (index < 10)
+        if (index < numCards)
         {
 
             int randomIndex = Random.Range(0, indexAvailable.Count);
