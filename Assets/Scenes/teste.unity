@@ -3403,6 +3403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hudDoJogoPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 3693755905968266258, guid: 02a7ecba0ab2e464e81e323f119fb968, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7366034483108182153, guid: 02a7ecba0ab2e464e81e323f119fb968, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
