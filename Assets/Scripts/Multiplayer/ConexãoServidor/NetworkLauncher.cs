@@ -56,7 +56,7 @@ public class NetworkLauncher : MonoBehaviourPunCallbacks
     void JoinOrCreateRoom()
     {
         PhotonNetwork.OfflineMode = false;
-        string roomName = "Sala_Global";
+        string roomName = "HubGamificado";
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 20;
 
