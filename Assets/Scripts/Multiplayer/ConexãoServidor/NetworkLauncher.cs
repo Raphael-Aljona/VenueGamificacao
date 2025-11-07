@@ -30,6 +30,7 @@ public class NetworkLauncher : MonoBehaviourPunCallbacks
         Debug.Log("Conectando ao Photon...");
         PhotonNetwork.AutomaticallySyncScene = true;
         PhotonNetwork.ConnectUsingSettings();
+
     }
 
     public void OnLoginButtonPressed()
@@ -37,9 +38,14 @@ public class NetworkLauncher : MonoBehaviourPunCallbacks
         if (PhotonNetwork.IsConnectedAndReady)
         {
             Debug.Log("Botão de login clicado! Criando/entrando na sala...");
+            if (menuManager == null)
+                menuManager = FindAnyObjectByType<MenuManager>();
+
             isReadyToJoinRoom = true;
             menuManager.ShowHUD();
             JoinOrCreateRoom();
+
+
         }
         else
         {
@@ -49,6 +55,7 @@ public class NetworkLauncher : MonoBehaviourPunCallbacks
 
     void JoinOrCreateRoom()
     {
+        PhotonNetwork.OfflineMode = false;
         string roomName = "Sala_Global";
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 20;

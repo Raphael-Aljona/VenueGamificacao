@@ -2496,7 +2496,15 @@ PrefabInstance:
     - target: {fileID: 3562644937088014581, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 758093352}
+      objectReference: {fileID: -340801219238619912, guid: 3e4ab9ae1f3798b4d8fdf7ffbdf24811, type: 3}
+    - target: {fileID: 3562644937088014581, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ExitMinigameAndReturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562644937088014581, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: ReturnToHub, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4898788286911581394, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2505,6 +2513,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 758093352}
+    - target: {fileID: 5876738738370394293, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6339846351798127845, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3547,6 +3559,10 @@ PrefabInstance:
     - target: {fileID: 1172760277210571928, guid: 79263a4e530651846ad2c7c89ad038fb, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172760277210571928, guid: 79263a4e530651846ad2c7c89ad038fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2427964818223683664, guid: 79263a4e530651846ad2c7c89ad038fb, type: 3}
       propertyPath: boxCollider2D

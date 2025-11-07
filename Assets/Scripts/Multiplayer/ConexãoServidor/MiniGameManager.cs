@@ -58,12 +58,12 @@ public class MiniGameManager : MonoBehaviourPunCallbacks
         PhotonNetwork.LoadLevel(miniGameSceneName);
     }
 
-    public override void OnCreateRoomFailed(short returnCode, string message)
-    {
-        Debug.LogError($"Falha ao criar sala solo: {message}. Iniciando modo offline...");
-        PhotonNetwork.Disconnect();
-        SceneManager.LoadScene(miniGameSceneName);
-    }
+    //public override void OnCreateRoomFailed(short returnCode, string message)
+    //{
+    //    Debug.LogError($"Falha ao criar sala solo: {message}. Iniciando modo offline...");
+    //    PhotonNetwork.Disconnect();
+    //    SceneManager.LoadScene(miniGameSceneName);
+    //}
 
     public void ReturnToLobby()
     {

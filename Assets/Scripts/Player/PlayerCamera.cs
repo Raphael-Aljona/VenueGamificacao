@@ -16,6 +16,7 @@ public class PlayerCamera : MonoBehaviour
     private float maxY;
 
     [SerializeField]private Transform target;
+
     IEnumerator Start()
     {
         if (boxCollider2D != null)
@@ -49,8 +50,21 @@ public class PlayerCamera : MonoBehaviour
         transform.position = new Vector3(clampX, clampY, transform.position.z);
     }
 
+    // Dentro de PlayerCamera.cs
+
     void TryFindPlayer()
     {
+        // 1. Tenta encontrar o objeto do jogador local pela Tag.
+        GameObject localPlayerObject = GameObject.FindWithTag("Player");
+
+        if (localPlayerObject != null)
+        {
+            target = localPlayerObject.transform;
+            Debug.Log("Camera agora seguindo o player local (via Tag).");
+            return; // Sai da função após encontrar
+        }
+
+        // 2. Se não encontrar pela Tag, volta à lógica anterior (útil para multiplayer)
         foreach (var player in FindObjectsOfType<PlayerMovement>())
         {
             PhotonView view = player.GetComponent<PhotonView>();
@@ -58,7 +72,7 @@ public class PlayerCamera : MonoBehaviour
             if (PhotonNetwork.OfflineMode || view == null || view.IsMine)
             {
                 target = player.transform;
-                Debug.Log("Camera agora seguindo o player local (modo solo).");
+                Debug.Log("Camera agora seguindo o player local (via Photon).");
                 break;
             }
         }
