@@ -1,13 +1,20 @@
+using System.Collections;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ModalCompeticaoManager : MonoBehaviour
 {
     public GameObject modalCompeticao;
-    public string teste = "teste";
+    public string gameTrello = "GameTrello";
     PlayerMovement playerMovement;
 
-    // Update is called once per frame
+    //Update is called once per frame
+    //public void Start()
+    //{
+    //    CloseModal();
+    //}
+
     void Update()
     {
         playerMovement = FindAnyObjectByType<PlayerMovement>();
@@ -30,6 +37,17 @@ public class ModalCompeticaoManager : MonoBehaviour
 
         PlayerPrefs.Save();
 
-        SceneManager.LoadScene(teste);
+        PhotonNetwork.AutomaticallySyncScene = false;
+        PhotonNetwork.Disconnect();
+        StartCoroutine(LoadSoloScene());
+    }
+
+    private IEnumerator LoadSoloScene()
+    {
+        while (PhotonNetwork.IsConnected)
+            yield return null;
+
+        PhotonNetwork.OfflineMode = true;
+        SceneManager.LoadScene("GameTrello");
     }
 }

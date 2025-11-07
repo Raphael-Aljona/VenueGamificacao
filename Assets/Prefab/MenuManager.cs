@@ -166,7 +166,7 @@ public class MenuManager : MonoBehaviour
     {
         DeactivateAllPanels();
         hudDoJogoPanel.SetActive(true);
-        SceneManager.LoadScene("Rooms");
+        //SceneManager.LoadScene("Rooms");
     }
 
     private bool isPaused = false; // Variável para rastrear o estado

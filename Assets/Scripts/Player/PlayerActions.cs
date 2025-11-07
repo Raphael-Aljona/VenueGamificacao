@@ -1,19 +1,29 @@
+using Photon.Pun;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PlayerActions : MonoBehaviour
+public class PlayerActions : MonoBehaviourPun
 {
     private KeyCode interactable = KeyCode.E;
-    public GameObject modalCompeticao;
+    [SerializeField]private GameObject modalCompeticao;
     public bool inCompetitionArea;
     void Start()
-    {
+    { 
         inCompetitionArea = false;
+        Scene actualSceneName = SceneManager.GetActiveScene();
+        if (actualSceneName.name  == "Rooms")
+        {
+            modalCompeticao = GameObject.FindGameObjectWithTag("ModalCompeticao");
+            modalCompeticao.SetActive(false);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(inCompetitionArea && Input.GetKeyDown(interactable))
+        if (!photonView.IsMine) return;
+
+        if (inCompetitionArea && Input.GetKeyDown(interactable))
         {
             modalCompeticao.SetActive(true);
         }
