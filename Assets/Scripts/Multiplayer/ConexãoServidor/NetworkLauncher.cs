@@ -77,7 +77,16 @@ public class NetworkLauncher : MonoBehaviourPunCallbacks
         if (scene.name == sceneName && PhotonNetwork.InRoom)
         {
             Debug.Log("Cena do Hub carregada, spawnando player...");
-            Vector3 spawnPos = new Vector3(Random.Range(-4f, 4f), Random.Range(-3f, 3f), 0);
+            //Vector3 spawnPos = new Vector3(Random.Range(-4f, 4f), Random.Range(-3f, 3f), 0);
+
+            GameObject[] spawnPoints = GameObject.FindGameObjectsWithTag("Spawnpoint");
+            Vector3 spawnPos = Vector3.zero;
+
+            if (spawnPoints.Length > 0)
+            {
+                spawnPos = spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position;
+            }
+
             PhotonNetwork.Instantiate("Player", spawnPos, Quaternion.identity);
         }
     }

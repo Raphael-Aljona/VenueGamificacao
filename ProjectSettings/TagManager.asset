@@ -9,6 +9,7 @@ TagManager:
   - TrelloPendente
   - TrelloEmAndamento
   - TrelloConcluido
+  - Spawnpoint
   layers:
   - Default
   - TransparentFX

@@ -1991,7 +1991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hubScene: Rooms
-  roomName: 
+  roomName: HubGamificado
 --- !u!1 &922598062 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 517281651396877220, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
