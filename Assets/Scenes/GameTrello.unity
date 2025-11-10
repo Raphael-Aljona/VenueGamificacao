@@ -1882,7 +1882,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 319323324496631637, guid: 7cfcdbc39f3165a419aad5b82ce77dea, type: 3}
   m_PrefabInstance: {fileID: 803099958}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 803099959}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aefb6a5578ddc714680fcf8612f6421b, type: 3}
@@ -1968,8 +1968,30 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3065386699809788143, guid: 7cfcdbc39f3165a419aad5b82ce77dea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 803099960}
   m_SourcePrefab: {fileID: 100100000, guid: 7cfcdbc39f3165a419aad5b82ce77dea, type: 3}
+--- !u!1 &803099959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3065386699809788143, guid: 7cfcdbc39f3165a419aad5b82ce77dea, type: 3}
+  m_PrefabInstance: {fileID: 803099958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &803099960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803099959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e06a5b1ea117e4bab59a65c55e2cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hubScene: Rooms
+  roomName: 
 --- !u!1 &922598062 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 517281651396877220, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
@@ -2494,16 +2516,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3562644937088014581, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562644937088014581, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: -340801219238619912, guid: 3e4ab9ae1f3798b4d8fdf7ffbdf24811, type: 3}
+      objectReference: {fileID: 803099960}
     - target: {fileID: 3562644937088014581, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ExitMinigameAndReturn
+      value: OnReturnToHubPressed
       objectReference: {fileID: 0}
     - target: {fileID: 3562644937088014581, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ReturnToHub, Assembly-CSharp
+      value: ReturnToHubManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562644937088014581, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4898788286911581394, guid: 5841fbe7952a09043b4aad46b835084e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3411,6 +3441,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 558814602}
     m_Modifications:
+    - target: {fileID: 355278446717577708, guid: 02a7ecba0ab2e464e81e323f119fb968, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3693755905968266258, guid: 02a7ecba0ab2e464e81e323f119fb968, type: 3}
       propertyPath: m_Name
       value: hudDoJogoPanel
@@ -3423,6 +3457,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 758093352}
+    - target: {fileID: 7366034483108182153, guid: 02a7ecba0ab2e464e81e323f119fb968, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366034483108182153, guid: 02a7ecba0ab2e464e81e323f119fb968, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ShowPauseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366034483108182153, guid: 02a7ecba0ab2e464e81e323f119fb968, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MenuManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7660446456874832179, guid: 02a7ecba0ab2e464e81e323f119fb968, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

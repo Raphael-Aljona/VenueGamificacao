@@ -179,7 +179,7 @@ public class MenuManager : MonoBehaviour
         fundoConfigII.SetActive(false);
         hudDoJogoPanel.SetActive(false);
         // Opcional: Pausar o tempo do jogo
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
 
         isPaused = true;
         Debug.Log("Jogo Pausado. Pressione ESC para retomar.");

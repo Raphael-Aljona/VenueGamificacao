@@ -49,7 +49,7 @@ public class PhotonConnect : MonoBehaviourPunCallbacks
     {
         Debug.LogWarning("Nenhuma sala encontrada, criando uma nova...");
         RoomOptions roomOptions = new RoomOptions { MaxPlayers = 10 };
-        PhotonNetwork.CreateRoom(null, roomOptions);
+        PhotonNetwork.CreateRoom("Sala_Global", roomOptions);
     }
 
     public override void OnJoinedRoom()
