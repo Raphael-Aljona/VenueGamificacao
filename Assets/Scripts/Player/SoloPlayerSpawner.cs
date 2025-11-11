@@ -1,3 +1,4 @@
+using Photon.Pun;
 using UnityEngine;
 
 public class SoloPlayerSpawner : MonoBehaviour
@@ -5,12 +6,9 @@ public class SoloPlayerSpawner : MonoBehaviour
     public GameObject PlayerSpawner;
     void Start()
     {
-        Instantiate(PlayerSpawner, new Vector3(0, 0, 0), Quaternion.identity);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (PhotonNetwork.InRoom)
+        {
+            PhotonNetwork.Instantiate(PlayerSpawner.name, new Vector3(0, 0, 0), Quaternion.identity);
+        }
     }
 }

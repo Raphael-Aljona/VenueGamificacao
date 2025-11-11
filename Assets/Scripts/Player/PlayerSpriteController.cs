@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using Photon.Pun;
+using UnityEngine;
 
 public class PlayerSpriteController : MonoBehaviour
 {
@@ -23,7 +25,6 @@ public class PlayerSpriteController : MonoBehaviour
     public Sprite[] interactLeft;
 
     [Header("Config")]
-    //public float velocidade = 3f;
     public float tempoEntreFrames = 0.12f;
 
     private SpriteRenderer sr;
@@ -42,21 +43,38 @@ public class PlayerSpriteController : MonoBehaviour
 
     private Vector2 movimentoInput;
 
+    private PhotonView view;
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        view = GetComponent<PhotonView>();
+
         SetAnimation(GetIdleArray(ultimaDirecao));
+
+        // 🟢 Força sincronização inicial (com leve atraso)
+        StartCoroutine(WaitForPhotonView());
     }
+
+    IEnumerator WaitForPhotonView()
+    {
+        // espera até o PhotonView estar pronto
+        yield return new WaitUntil(() => view != null && view.ViewID != 0 && view.IsMine);
+
+        // força sincronização inicial para todos os clientes
+        view.RPC(nameof(RPC_SyncAnim), RpcTarget.AllBuffered, (int)estado, (int)direcaoAtual);
+    }
+
 
     void Update()
     {
-        // Entrada de movimento
+        if (!view.IsMine) return;
+
         float movX = Input.GetAxisRaw("Horizontal");
         float movY = Input.GetAxisRaw("Vertical");
         movimentoInput = new Vector2(movX, movY).normalized;
 
-        // Atualiza direção atual (baseada na entrada)
         if (movimentoInput.magnitude > 0)
         {
             if (Mathf.Abs(movX) > Mathf.Abs(movY))
@@ -65,48 +83,29 @@ public class PlayerSpriteController : MonoBehaviour
                 direcaoAtual = movY > 0 ? Direcao.Up : Direcao.Down;
         }
 
-        // Atualiza estado (prioridade)
-        if (Input.GetKey(KeyCode.E))
-        {
-            MudarEstado(Estado.Interact);
-        }
-        else if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-        {
-            MudarEstado(Estado.Push);
-        }
-        else if (movimentoInput.magnitude > 0)
-        {
-            MudarEstado(Estado.Walk);
-        }
-        else
-        {
-            MudarEstado(Estado.Idle);
-        }
+        Estado novoEstado =
+            Input.GetKey(KeyCode.E) ? Estado.Interact :
+            (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift)) ? Estado.Push :
+            (movimentoInput.magnitude > 0) ? Estado.Walk :
+            Estado.Idle;
 
-        // ⚙️ Atualiza animação se a direção mudar (mesmo estado)
-        if (direcaoAtual != ultimaDirecao)
+        if (novoEstado != estado || direcaoAtual != ultimaDirecao)
         {
+            estado = novoEstado;
             ultimaDirecao = direcaoAtual;
-            AtualizarAnimacaoPorEstado();
+            view.RPC(nameof(RPC_SyncAnim), RpcTarget.All, (int)estado, (int)direcaoAtual);
         }
 
         AtualizarAnimacaoTempo();
     }
 
-    //void FixedUpdate()
-    //{
-    //    Vector2 novaPos = rb.position + movimentoInput * velocidade * Time.fixedDeltaTime;
-    //    rb.MovePosition(novaPos);
-    //}
-
-    private void MudarEstado(Estado novo)
+    [PunRPC]
+    void RPC_SyncAnim(int estadoRPC, int direcaoRPC)
     {
-        if (estado == novo) return;
-
-        estado = novo;
+        estado = (Estado)estadoRPC;
+        ultimaDirecao = (Direcao)direcaoRPC;
         AtualizarAnimacaoPorEstado();
     }
-
     private void AtualizarAnimacaoPorEstado()
     {
         frameAtual = 0;

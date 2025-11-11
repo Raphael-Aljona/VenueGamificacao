@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class NetworkLauncher : MonoBehaviourPunCallbacks
 {
-    [SerializeField] private string sceneName = "Hub";
+    [SerializeField] private string sceneName = "Rooms";
 
     private static NetworkLauncher instance;
     private bool isReadyToJoinRoom = false;
     public MenuManager menuManager;
+
+    private bool playerSpawned = false;
 
     void Awake()
     {
@@ -22,6 +24,7 @@ public class NetworkLauncher : MonoBehaviourPunCallbacks
         DontDestroyOnLoad(gameObject);
 
         // Ouve quando uma cena é carregada
+        SceneManager.sceneLoaded -= OnSceneLoaded;
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -74,20 +77,35 @@ public class NetworkLauncher : MonoBehaviourPunCallbacks
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == sceneName && PhotonNetwork.InRoom)
+        if (scene.name == sceneName && PhotonNetwork.InRoom && !playerSpawned)
         {
-            Debug.Log("Cena do Hub carregada, spawnando player...");
-            //Vector3 spawnPos = new Vector3(Random.Range(-4f, 4f), Random.Range(-3f, 3f), 0);
-
-            GameObject[] spawnPoints = GameObject.FindGameObjectsWithTag("Spawnpoint");
-            Vector3 spawnPos = Vector3.zero;
-
-            if (spawnPoints.Length > 0)
+            if (!AlreadyHasLocalPlayer())
             {
-                spawnPos = spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position;
+                SpawnPlayer();
             }
-
-            PhotonNetwork.Instantiate("Player", spawnPos, Quaternion.identity);
         }
+    }
+    private bool AlreadyHasLocalPlayer()
+    {
+        foreach (var view in FindObjectsOfType<PhotonView>())
+        {
+            if (view.IsMine) return true;
+        }
+        return false;
+    }
+
+    private void SpawnPlayer()
+    {
+        Debug.Log("Cena do Hub carregada, spawnando player...");
+
+        GameObject[] spawnPoints = GameObject.FindGameObjectsWithTag("Spawnpoint");
+        Vector3 spawnPos = Vector3.zero;
+
+        if (spawnPoints.Length > 0)
+        {
+            spawnPos = spawnPoints[Random.Range(0, spawnPoints.Length)].transform.position;
+        }
+
+        PhotonNetwork.Instantiate("Player", spawnPos, Quaternion.identity);
     }
 }
