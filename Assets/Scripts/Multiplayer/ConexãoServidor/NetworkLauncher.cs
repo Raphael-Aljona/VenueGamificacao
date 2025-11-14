@@ -81,7 +81,7 @@ public class NetworkLauncher : MonoBehaviourPunCallbacks
         {
             if (!AlreadyHasLocalPlayer())
             {
-                SpawnPlayer();
+                SpawnPlayer();  
             }
         }
     }

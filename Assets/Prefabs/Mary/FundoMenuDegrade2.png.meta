@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 94934f42a51e981439e9074b30c7d7d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4103194814769528651
+    second: FundoMenuDegrade2_0
+  - first:
+      213: -7437391510078873823
+    second: FundoMenuDegrade2_1
+  - first:
+      213: -6916032392643327544
+    second: FundoMenuDegrade2_2
+  - first:
+      213: 9185861386876457941
+    second: FundoMenuDegrade2_3
+  - first:
+      213: -3875955761457438791
+    second: FundoMenuDegrade2_4
+  - first:
+      213: 2092812022359588985
+    second: FundoMenuDegrade2_5
+  - first:
+      213: -950361720768120522
+    second: FundoMenuDegrade2_6
+  - first:
+      213: -8080731295362850030
+    second: FundoMenuDegrade2_7
+  - first:
+      213: 656304669600337208
+    second: FundoMenuDegrade2_8
+  - first:
+      213: -7378826804269367773
+    second: FundoMenuDegrade2_9
+  - first:
+      213: -1396602849397961731
+    second: FundoMenuDegrade2_10
+  - first:
+      213: 1243384991014673628
+    second: FundoMenuDegrade2_11
+  - first:
+      213: -826709913046472411
+    second: FundoMenuDegrade2_12
+  - first:
+      213: -3107508152840080256
+    second: FundoMenuDegrade2_13
+  - first:
+      213: -826428643666453382
+    second: FundoMenuDegrade2_14
+  - first:
+      213: 2597176573274519306
+    second: FundoMenuDegrade2_15
+  - first:
+      213: -642904486857850174
+    second: FundoMenuDegrade2_16
+  - first:
+      213: -8918186036313266049
+    second: FundoMenuDegrade2_17
+  - first:
+      213: -8964575223801501923
+    second: FundoMenuDegrade2_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0007d3e068e07c0800000000000000
+      internalID: -4103194814769528651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_1
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1059
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f1e3a93d319c890800000000000000
+      internalID: -7437391510078873823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_2
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 955
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9466d7e215500a0800000000000000
+      internalID: -6916032392643327544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_3
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 942
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d39fb8334cba7f70800000000000000
+      internalID: 9185861386876457941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_4
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 933
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf533945c6d53ac0800000000000000
+      internalID: -3875955761457438791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_5
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 829
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970096632792b0d10800000000000000
+      internalID: 2092812022359588985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_6
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 783
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639bc79dc03afc2f0800000000000000
+      internalID: -950361720768120522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_7
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 674
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213e38e43b97bdf80800000000000000
+      internalID: -8080731295362850030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_8
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 514
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d45f7ae99ab1900800000000000000
+      internalID: 656304669600337208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_9
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 497
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32eb460cd14299990800000000000000
+      internalID: -7378826804269367773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_10
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 430
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb0655ab154e9ce0800000000000000
+      internalID: -1396602849397961731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_11
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 333
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc5b74cf04614110800000000000000
+      internalID: 1243384991014673628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_12
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 297
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5292294d6bfe684f0800000000000000
+      internalID: -826709913046472411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_13
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 249
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084365d9cc9efd4d0800000000000000
+      internalID: -3107508152840080256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_14
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 232
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c9d06f68fe784f0800000000000000
+      internalID: -826428643666453382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_15
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 215
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a077efc35560b0420800000000000000
+      internalID: 2597176573274519306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_16
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 197
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2455486c1f317f0800000000000000
+      internalID: -642904486857850174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_17
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 132
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78e2b0fc0d3c3480800000000000000
+      internalID: -8918186036313266049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FundoMenuDegrade2_18
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d172b0f845e679380800000000000000
+      internalID: -8964575223801501923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FundoMenuDegrade2_0: -4103194814769528651
+      FundoMenuDegrade2_1: -7437391510078873823
+      FundoMenuDegrade2_10: -1396602849397961731
+      FundoMenuDegrade2_11: 1243384991014673628
+      FundoMenuDegrade2_12: -826709913046472411
+      FundoMenuDegrade2_13: -3107508152840080256
+      FundoMenuDegrade2_14: -826428643666453382
+      FundoMenuDegrade2_15: 2597176573274519306
+      FundoMenuDegrade2_16: -642904486857850174
+      FundoMenuDegrade2_17: -8918186036313266049
+      FundoMenuDegrade2_18: -8964575223801501923
+      FundoMenuDegrade2_2: -6916032392643327544
+      FundoMenuDegrade2_3: 9185861386876457941
+      FundoMenuDegrade2_4: -3875955761457438791
+      FundoMenuDegrade2_5: 2092812022359588985
+      FundoMenuDegrade2_6: -950361720768120522
+      FundoMenuDegrade2_7: -8080731295362850030
+      FundoMenuDegrade2_8: 656304669600337208
+      FundoMenuDegrade2_9: -7378826804269367773
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

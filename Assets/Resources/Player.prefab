@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7918029507808722033}
   - component: {fileID: 4518882188381098715}
   - component: {fileID: -1528830509556281572}
+  - component: {fileID: 4866698803737842424}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -191,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79599057a5e13054698e15c990183ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  modalCompeticao: {fileID: 423638875744455685, guid: ec083e4c91613cf47bfbc453878e5486, type: 3}
+  modalCompeticao: {fileID: 3015169997186740936, guid: f5ffe1ef199f43949b8be1697cca8adf, type: 3}
   inCompetitionArea: 0
 --- !u!114 &4518882188381098715
 MonoBehaviour:
@@ -289,3 +290,16 @@ MonoBehaviour:
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &4866698803737842424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6082227812305446140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e08790335a92b499c0665f611fd2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentZone: -1
